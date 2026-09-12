@@ -4,7 +4,7 @@
 **Curso:** Profundización en .NET — Unidad 1: Fundamentos de C#
 **Reto:** Reto Final de Unidad 1 — Mini-POS
 
-## 📋 Descripción del proyecto
+##  Descripción del proyecto
 
 Aplicación de consola desarrollada en **C# (.NET 8)** que simula un punto de venta (POS) básico para una tienda de barrio. Permite:
 
@@ -15,7 +15,7 @@ Aplicación de consola desarrollada en **C# (.NET 8)** que simula un punto de ve
 
 El proyecto se desarrolló usando **únicamente** los temas cubiertos en las Semanas 1 a 4 de la Unidad 1: variables, tipos primitivos, colecciones (`List<T>`), estructuras de control (`if`, `switch`, `do-while`, `while`, `for`), métodos estáticos y manejo seguro de errores (`try/catch` implícito mediante `int.TryParse` / `decimal.TryParse`). **No se utiliza Programación Orientada a Objetos** (no hay clases personalizadas, constructores ni herencia); toda la información de los productos se maneja con listas paralelas en memoria.
 
-## 🧩 Métodos estáticos principales
+##  Métodos estáticos principales
 
 | Método | Descripción |
 |---|---|
@@ -24,7 +24,7 @@ El proyecto se desarrolló usando **únicamente** los temas cubiertos en las Sem
 | `CalcularFactura(decimal precio, int cantidad, bool tieneDescuento, out decimal montoIva, out decimal montoDescuento)` | Calcula el descuento, el IVA (19%) y el total a pagar de una venta. |
 | `ImprimirEncabezado(string titulo)` | Imprime un encabezado centrado y decorado para cada pantalla del sistema. |
 
-## ⚙️ Requisitos previos
+##  Requisitos previos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) instalado.
 - Git instalado.
@@ -35,7 +35,7 @@ Puedes verificar tu versión de .NET con:
 dotnet --version
 ```
 
-## 🚀 Cómo clonar y ejecutar el proyecto
+##  Cómo clonar y ejecutar el proyecto
 
 1. Clona el repositorio:
 
@@ -52,9 +52,9 @@ dotnet --version
 
 3. Se mostrará el menú principal en consola. Navega usando las opciones **1 a 5**.
 
-> 💡 Antes de entregar, se recomienda clonar el repositorio en una carpeta distinta y correr `dotnet build` seguido de `dotnet run` para confirmar que compila y funciona correctamente desde cero.
+>  Antes de entregar, se recomienda clonar el repositorio en una carpeta distinta y correr `dotnet build` seguido de `dotnet run` para confirmar que compila y funciona correctamente desde cero.
 
-## 🖥️ Ejemplo de ejecución
+##  Ejemplo de ejecución
 
 ### Menú principal
 
@@ -122,7 +122,7 @@ Promedio de dinero por venta             : $ 38.556,00
 Producto más vendido                     : Café Colombiano 500g (2 unidades)
 ```
 
-## 📁 Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 GestorVentasUnidad1/
