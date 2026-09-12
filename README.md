@@ -1,6 +1,6 @@
 # Sistema Gestor de Ventas e Inventario Express (Mini-POS)
 
-**Estudiante:** [Tu Nombre Completo]
+**Estudiante:** [Deiner De Jesus Polo Bravo]
 **Curso:** Profundización en .NET — Unidad 1: Fundamentos de C#
 **Reto:** Reto Final de Unidad 1 — Mini-POS
 
